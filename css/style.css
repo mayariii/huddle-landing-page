@@ -1,3 +1,71 @@
 body {
+  background-color: #674baf;
+  color: white;
+  background-image: url("/images/bg-desktop.svg");
+}
+
+.logo {
+  padding: 1.5% 3%;
+}
+
+.content {
+  display: flex;
+}
+
+.content .image-content {
+  padding: 5% 5% 0 5%;
+}
+
+.content .text-content {
+  padding: 3% 3% 3% 0;
+}
+
+.content .text-content .heading {
+  font-family: "Poppins", sans-serif;
+  font-size: xx-large;
+  font-weight: 600;
+  padding-top: 5%;
+}
+
+.content .text-content .sub-text {
   font-family: "Open Sans", sans-serif;
+  padding-right: 25%;
+}
+
+.button {
+  border: none;
+  border-radius: 30px;
+  box-shadow: 3px 3px 23px 6px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  color: #674baf;
+  font-family: "Open Sans", sans-serif;
+  font-size: medium;
+  margin: 3% 0;
+  width: 200px;
+  height: 56px;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 10%;
+}
+
+.social-icon {
+  border: 1px solid white;
+  display: inline-block;
+  border-radius: 26px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+
+.button:hover {
+  color: white;
+  background-color: #e882e8;
+}
+
+.social-icon:hover {
+  color: #e882e8;
+  border: 1px solid #e882e8;
 }

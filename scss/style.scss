@@ -1,6 +1,76 @@
 @import 'config';
 
 body {
-    font-family: $font-body;
+    background-color: $primary-colour;
+    color: $secondary-colour;
+    background-image: $background-image;
 }
 
+.logo {
+    padding: 1.5% 3%;
+}
+
+.content {
+    display: flex;
+
+    .image-content {
+        padding: 5% 5% 0 5%;
+    }
+
+    .text-content {
+        padding: 3% 3% 3% 0;
+
+        .heading {
+            font-family: $font-heading;
+            font-size: xx-large;
+            font-weight: 600;
+            padding-top: 5%;
+        }
+
+        .sub-text {
+            font-family: $font-body;
+            padding-right: 25%;
+        }
+    }
+}
+
+.button {
+    border: none;
+    border-radius: 30px;
+    box-shadow: 3px 3px 23px 6px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    color: $primary-colour;
+    font-family: $font-body;
+    font-size: medium;
+    margin: 3% 0;
+
+    // sizing
+    width: 200px;
+    height: 56px;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10%;
+}
+
+.social-icon {
+    border: 1px solid $secondary-colour;
+    display: inline-block;
+    border-radius: 26px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+// hover styling
+.button:hover {
+    color: $secondary-colour;
+    background-color: $hover-colour;
+}
+
+.social-icon:hover {
+    color: $hover-colour;
+    border: 1px solid $hover-colour;
+}
