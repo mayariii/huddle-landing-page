@@ -28,8 +28,8 @@ This is a solution to the [Huddle landing page with single introductory section 
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/single-pricing-card-component-html-and-css-with-flexbox-and-grid-0YFT-MSj6](https://www.frontendmentor.io/solutions/single-pricing-card-component-html-and-css-with-flexbox-and-grid-0YFT-MSj6)
-- Live Site URL: [https://nicoleanalisecox.github.io/price-grid-component/](https://nicoleanalisecox.github.io/price-grid-component/)
+- Solution URL: [https://www.frontendmentor.io/solutions/huddle-landing-page-with-html-css-flexbox-and-sass-n3VlS-eYd](https://www.frontendmentor.io/solutions/huddle-landing-page-with-html-css-flexbox-and-sass-n3VlS-eYd)
+- Live Site URL: [https://nicoleanalisecox.github.io/huddle-landing-page/](https://nicoleanalisecox.github.io/huddle-landing-page/)
 
 ## My process
 
