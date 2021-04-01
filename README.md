@@ -57,7 +57,7 @@ Handy cheat sheet: [Flexbox Cheat Sheet](https://flexbox.malven.co/)
 Looked at how I could create circle border on the font awesome icons. Found out about stacking through this post: [How to create circular backgrounds for your font awesome icons](https://markheath.net/post/font-awesome-circle-background). The lines are too thick currently and don't match the design very well.
 
 **Day 4: **
-Started with looking at the icons again. Had a goodle and found this stack overflow post to help me achieve what I wanted with basic CSS, using the border and border-radius properties. 
+Started with looking at the icons again. Had a google and found this stack overflow post to help me achieve what I wanted with basic CSS, using the border and border-radius properties. 
 [Can you put a circle border round an icon in HTML5](https://stackoverflow.com/questions/25309500/can-you-put-a-white-circled-border-around-a-icon-in-html5/25309638#25309638)
 Styled the Register button with a box shadow and border radius, using a large radius to get the oval shape. Also added 'cursor: pointer;' inspired by feedback from my previous Front End Mentor project. 
 Added hover states to the register button and social links with the :hover selector.
