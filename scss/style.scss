@@ -1,15 +1,21 @@
 @import 'config';
 
 body {
+    // colours
     background-color: $primary-colour;
     color: $secondary-colour;
+    // background
     background-image: $background-image;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
+// HEADER SECTION
 .logo {
     padding: 1.5% 3%;
 }
 
+// MAIN CONTENT SECTION
 .content {
     display: flex;
 
@@ -35,6 +41,7 @@ body {
 }
 
 .button {
+    // styling
     border: none;
     border-radius: 30px;
     box-shadow: 3px 3px 23px 6px rgba(0, 0, 0, 0.25);
@@ -42,12 +49,16 @@ body {
     color: $primary-colour;
     font-family: $font-body;
     font-size: medium;
-    margin: 3% 0;
 
     // sizing
     width: 200px;
     height: 56px;
+
+    // layout
+    margin: 3% 0;
 }
+
+// FOOTER SECTION
 
 .links {
     display: flex;
@@ -57,20 +68,15 @@ body {
 
 .social-icon {
     border: 1px solid $secondary-colour;
-    display: inline-block;
     border-radius: 26px;
+    display: inline-block;
+    text-align: center;
+    
+    // sizing
     width: 30px;
     height: 30px;
-    text-align: center;
 }
 
-// hover styling
-.button:hover {
-    color: $secondary-colour;
-    background-color: $hover-colour;
-}
 
-.social-icon:hover {
-    color: $hover-colour;
-    border: 1px solid $hover-colour;
-}
+@import 'utilities';
+@import 'mobile';

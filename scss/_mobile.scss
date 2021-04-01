@@ -1,0 +1,64 @@
+@media (max-width: 1250px) {
+
+    body {
+        $background-image: url('/images/bg-mobile.svg');
+        background-image: $background-image;
+    }
+
+    .logo {
+        width: 120px;
+        padding: 5%;
+    }
+
+    .content {
+        flex-direction: column;
+        align-items: center;
+
+        .image-content {
+            display: flex;
+            justify-content: center;
+            width: auto;
+
+            img {
+                width: 296px;
+                padding-top: 8%;
+            }
+        }
+
+        .text-content {
+            text-align: center;
+            padding: 3%;
+
+            .heading {
+                font-size: x-large;
+                margin: 0;
+                padding-top: 15%;                
+            }
+
+            .sub-text {
+                padding: 5%;
+            }
+        }
+    }
+
+    .button {
+        height: 40px;
+        font-size: small;
+    }
+
+    .links {
+        justify-content: center;
+        padding: 5% 0 5% 0;
+    }
+
+    .social-icon {
+        // styling
+        border-radius: 26px;
+        font-size: small;
+        text-align: center;
+        
+        // sizing
+        width: 30px;
+        height: 30px;
+    }
+}

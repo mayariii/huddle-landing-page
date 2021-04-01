@@ -2,6 +2,8 @@ body {
   background-color: #674baf;
   color: white;
   background-image: url("/images/bg-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .logo {
@@ -40,9 +42,9 @@ body {
   color: #674baf;
   font-family: "Open Sans", sans-serif;
   font-size: medium;
-  margin: 3% 0;
   width: 200px;
   height: 56px;
+  margin: 3% 0;
 }
 
 .links {
@@ -53,11 +55,11 @@ body {
 
 .social-icon {
   border: 1px solid white;
-  display: inline-block;
   border-radius: 26px;
+  display: inline-block;
+  text-align: center;
   width: 30px;
   height: 30px;
-  text-align: center;
 }
 
 .button:hover {
@@ -68,4 +70,54 @@ body {
 .social-icon:hover {
   color: #e882e8;
   border: 1px solid #e882e8;
+}
+
+@media (max-width: 1250px) {
+  body {
+    background-image: url("/images/bg-mobile.svg");
+  }
+  .logo {
+    width: 120px;
+    padding: 5%;
+  }
+  .content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .content .image-content {
+    display: flex;
+    justify-content: center;
+    width: auto;
+  }
+  .content .image-content img {
+    width: 296px;
+    padding-top: 8%;
+  }
+  .content .text-content {
+    text-align: center;
+    padding: 3%;
+  }
+  .content .text-content .heading {
+    font-size: x-large;
+    margin: 0;
+    padding-top: 15%;
+  }
+  .content .text-content .sub-text {
+    padding: 5%;
+  }
+  .button {
+    height: 40px;
+    font-size: small;
+  }
+  .links {
+    justify-content: center;
+    padding: 5% 0 5% 0;
+  }
+  .social-icon {
+    border-radius: 26px;
+    font-size: small;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+  }
 }
