@@ -1,7 +1,7 @@
 @media (max-width: 1250px) {
 
     body {
-        $background-image: url('/images/bg-mobile.svg');
+        $background-image: url('../images/bg-mobile.svg');
         background-image: $background-image;
     }
 
@@ -32,7 +32,7 @@
             .heading {
                 font-size: x-large;
                 margin: 0;
-                padding-top: 15%;                
+                padding-top: 15%;
             }
 
             .sub-text {
@@ -56,7 +56,7 @@
         border-radius: 26px;
         font-size: small;
         text-align: center;
-        
+
         // sizing
         width: 30px;
         height: 30px;

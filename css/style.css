@@ -1,7 +1,7 @@
 body {
   background-color: #674baf;
   color: white;
-  background-image: url("/images/bg-desktop.svg");
+  background-image: url("../images/bg-desktop.svg");
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -74,7 +74,7 @@ body {
 
 @media (max-width: 1250px) {
   body {
-    background-image: url("/images/bg-mobile.svg");
+    background-image: url("../images/bg-mobile.svg");
   }
   .logo {
     width: 120px;
