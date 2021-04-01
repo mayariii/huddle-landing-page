@@ -42,7 +42,7 @@ This is a solution to the [Huddle landing page with single introductory section 
 ### What I learned
 
 **Day 1: **
-Using Sass for the first time, after watching Brad Traversy's Sass Crash Course.  [Sass Crash Course] (https://www.youtube.com/watch?v=nu5mdN2JIwM)
+Using Sass for the first time, after watching Brad Traversy's Sass Crash Course.  [Sass Crash Course](https://www.youtube.com/watch?v=nu5mdN2JIwM)
 Set up Live Sass Compiler & Live Server extensions. Set up stylesheets & applied the a font style to the body to test that the stylesheets were linked successfully.
 
 **Day 2: **
