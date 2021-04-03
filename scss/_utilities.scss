@@ -2,6 +2,7 @@
 .button:hover {
     color: $secondary-colour;
     background-color: $hover-colour;
+    transition: all 0.3s ease;
 }
 
 .social-icon:hover {

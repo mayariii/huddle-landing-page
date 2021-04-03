@@ -65,6 +65,7 @@ body {
 .button:hover {
   color: white;
   background-color: #e882e8;
+  transition: all 0.3s ease;
 }
 
 .social-icon:hover {
