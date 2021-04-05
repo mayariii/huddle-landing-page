@@ -3,11 +3,12 @@ body {
   color: white;
   background-image: url("../images/bg-desktop.svg");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
+  min-height: 100vh;
 }
 
 .logo {
-  padding: 1.5% 3%;
+  padding: 10px 20px;
 }
 
 .content {
@@ -15,23 +16,23 @@ body {
 }
 
 .content .image-content {
-  padding: 5% 5% 0 5%;
+  padding: 75px 75px 0 75px;
 }
 
 .content .text-content {
-  padding: 3% 3% 3% 0;
+  padding: 50px 50px 50px 0;
 }
 
 .content .text-content .heading {
   font-family: "Poppins", sans-serif;
   font-size: xx-large;
   font-weight: 600;
-  padding-top: 5%;
+  padding-top: 50px;
 }
 
 .content .text-content .sub-text {
   font-family: "Open Sans", sans-serif;
-  padding-right: 25%;
+  padding-right: 150px;
 }
 
 .button {
@@ -44,13 +45,18 @@ body {
   font-size: medium;
   width: 200px;
   height: 56px;
-  margin: 3% 0;
+  margin: 40px 0;
 }
 
 .links {
   display: flex;
   justify-content: flex-end;
-  padding-right: 10%;
+  padding-top: 25px;
+  padding-right: 100px;
+}
+
+.links a {
+  color: white;
 }
 
 .social-icon {
@@ -76,10 +82,11 @@ body {
 @media (max-width: 1250px) {
   body {
     background-image: url("../images/bg-mobile.svg");
+    background-size: 100%;
   }
   .logo {
     width: 120px;
-    padding: 5%;
+    padding: 15px;
   }
   .content {
     flex-direction: column;
@@ -92,19 +99,19 @@ body {
   }
   .content .image-content img {
     width: 296px;
-    padding-top: 8%;
+    padding-top: 20px;
   }
   .content .text-content {
     text-align: center;
-    padding: 3%;
+    padding: 10px;
   }
   .content .text-content .heading {
     font-size: x-large;
     margin: 0;
-    padding-top: 15%;
+    padding-top: 30px;
   }
   .content .text-content .sub-text {
-    padding: 5%;
+    padding: 20px;
   }
   .button {
     height: 40px;
@@ -112,7 +119,7 @@ body {
   }
   .links {
     justify-content: center;
-    padding: 5% 0 5% 0;
+    padding: 20px 0 20px 0;
   }
   .social-icon {
     border-radius: 26px;

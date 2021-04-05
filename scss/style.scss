@@ -7,12 +7,13 @@ body {
     // background
     background-image: $background-image;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
+    min-height: 100vh;
 }
 
 // HEADER SECTION
 .logo {
-    padding: 1.5% 3%;
+    padding: 10px 20px;
 }
 
 // MAIN CONTENT SECTION
@@ -20,22 +21,22 @@ body {
     display: flex;
 
     .image-content {
-        padding: 5% 5% 0 5%;
+        padding: 75px 75px 0 75px;
     }
 
     .text-content {
-        padding: 3% 3% 3% 0;
+        padding: 50px 50px 50px 0;
 
         .heading {
             font-family: $font-heading;
             font-size: xx-large;
             font-weight: 600;
-            padding-top: 5%;
+            padding-top: 50px;
         }
 
         .sub-text {
             font-family: $font-body;
-            padding-right: 25%;
+            padding-right: 150px;
         }
     }
 }
@@ -55,7 +56,7 @@ body {
     height: 56px;
 
     // layout
-    margin: 3% 0;
+    margin: 40px 0;
 }
 
 // FOOTER SECTION
@@ -63,7 +64,12 @@ body {
 .links {
     display: flex;
     justify-content: flex-end;
-    padding-right: 10%;
+    padding-top: 25px;
+    padding-right: 100px;
+
+    a {
+        color: $secondary-colour;
+    }
 }
 
 .social-icon {

@@ -65,6 +65,13 @@ Added hover states to the register button and social links with the :hover selec
 **Day 4: **
 Added in a mobile partial for responsiveness. Used flex-direction: column to stack the main content vertically. Pretty much centered everything, and adjusted sizing of images and fonts. Tidied up code.
 
+**Improvements made after feedback: **
+- Used more semantic HTML tags instead of using only divs: header, main, and footer. This resource was helpful from W3 schools: [HTML5 Semantic Elements](https://www.w3schools.com/html/html5_semantic_elements.asp)
+- Added a transition effect on my button hover to make it smoother, using transition: all 0.3s ease;
+- Added anchor tags to the socials icons to make them working links. Added attributes: target="_blank" to open in a new tab on click, and rel="noreferrer" to improve performance and prevent security vulnerabilities. [External Anchors Use rel no opener](https://web.dev/external-anchors-use-rel-noopener/)
+- Added min-height: 100vh and background-size: cover to the body to make sure the background image is at least as high as the viewport and the background image covers the entire screen
+- Gave elements fixed margin/padding values so the spce between them is more consistent across screen sizes
+
 ### Issues I had:
 **Problem:**
 Images weren't showing up.
